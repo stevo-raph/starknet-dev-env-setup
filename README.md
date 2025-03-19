@@ -37,7 +37,7 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 9. then ***scarb init*** – (select Starknet Foundry) which builds the project folders, files, dependencies
 10. then ***scarb test***
 
-That’s it, you now have a Cairo/Starknet development setup ready for further Starknet-related activities.
+That’s it, you now have a Cairo/Starknet development setup ready for further Starknet-related activities. I've tested these instructions multiple times on multiple devices and it always produces the same successful outcome. But I also submitted this guide to the Starknet Discord server soliciting feedback from more experienced users. If someone there sees a problem with this guide, I'll update and notate immediately. 
 
 Notes: It's not essential that Docker Desktop be installed because you can pull and run the Starknet image from the terminal. But, for me, I like to see the image inside Docker Desktop. 
 
