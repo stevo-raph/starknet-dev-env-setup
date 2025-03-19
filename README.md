@@ -21,9 +21,9 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 7. then once created, ***populate*** it by **typing**: 
 
 	 {   
-		 “name”: “dev”,  
-				 “image”: “starknetfoundation/starknet-dev:latest”,  
-	   		 "customizations":  {  
+		     “name”: “dev”,  
+				     “image”: “starknetfoundation/starknet-dev:latest”,  
+	   		     "customizations":  {  
 	        			 "vscode":  {  
 	            				 "extensions":  [  
 	                					 "StarkWare.cairo1",  
