@@ -30,7 +30,7 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
                 "tamasfe.even-better-toml"] 
                 } 
             } 
-}```
+}
 
 ![Starknet devcontainer code](https://github.com/user-attachments/assets/02321a27-0c8b-4417-a6e0-900ec08070e9)
 
