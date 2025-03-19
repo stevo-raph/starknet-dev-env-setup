@@ -39,3 +39,6 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 
 That’s it, you now have a Cairo/Starknet development setup ready for further Starknet-related activities.
 
+Notes: It's not essential that Docker Desktop be installed because you can pull and run the Starknet image from the terminal. But, for me, I like to see the image inside Docker Desktop. 
+
+I'll make no bones about this -- I am new to Starknet and Cairo. But, I'm learning quickly, and fumbling of course, but I consider this a necessary evil. So, I'll continue to post additional commentary and guides that I think might be useful to others facing a journey similar to mine. Next up, let's see how well documented is the process for deploying, declaring, and interacting with a Cairo smart contract on devnet first, then testnet.  One foot in front of the other!
