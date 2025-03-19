@@ -3,7 +3,7 @@ The Starknet documentation is incomplete when it comes to setting up a developme
 
 Both guides can be confusing and frustrating because they fail to clearly mention — or even mention at all — the need to install Docker Desktop and/or the Docker image starknetfoundation-starknet-dev (Docker Hub link). As a result, they leave out the specific commands needed to set up a functional Starknet dev env on WSL2 Ubuntu.
 
-This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and help fellow WSL2 users get up and running with Starknet more quickly.
+This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and help fellow WSL2 users get up and running within the Starknet ecosystem more quickly.
 
 **STEP-BY-STEP HOW TO CREATE A STARKNET PROJECT DEVELOPMENT ENVIRONMENT USING VSC & WSL Ubuntu 24.04**
 
