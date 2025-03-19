@@ -5,11 +5,12 @@ Both guides can be confusing and frustrating because they fail to clearly mentio
 
 This Step-by-Step Guide aims to fill those gaps, reduce confusion, and help fellow WSL2 users get up and running with Starknet more quickly.
 
-* Step by Step to create Starknet project dev env using VSC & WSL Ubuntu 2404
+**Step by Step to create Starknet project dev env using VSC & WSL Ubuntu 2404**
+
 **Assumptions: 
 	1.	You’ve installed Docker Desktop & pulled and run the starkwarefoundation/starknet-dev image. 
 	2.	You’ve installed the Dev Containers extension in VSC
-	3.	You’ve installed the Cairo 1.0 extension in VSC
+	3.	You’ve installed the Cairo 1.0 extension in VSC**
 
 Open VSC
 Connect to WSL 24.04, open a new terminal
