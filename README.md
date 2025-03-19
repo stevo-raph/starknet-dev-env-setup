@@ -6,7 +6,7 @@ Both guides can be confusing and frustrating because they fail to clearly mentio
 
 This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and help fellow WSL2 users get up and running within the Starknet ecosystem more quickly.
 
-**STEP-BY-STEP HOW TO CREATE A STARKNET PROJECT DEVELOPMENT ENVIRONMENT USING VSC & WSL Ubuntu 24.04**
+**STEP-BY-STEP**
 
 **Assumptions: 
 	1)	You’ve installed Docker Desktop & pulled and run the starkwarefoundation/starknet-dev image. 
