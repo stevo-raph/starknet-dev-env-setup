@@ -12,25 +12,30 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 	2.	You’ve installed the Dev Containers extension in VSC.
 	3.	You’ve installed the Cairo 1.0 extension in VSC.**
 
-Open VSC
-Connect to WSL 24.04, open a new terminal
-then mkdir xxxxx
-then cd xxxxx
-then code .  which opens a new terminal you’ll use henceforth
-then New File from the Explorer and create a “.devcontainer.json” file
-then once created, populate it with: 
-	{ 
-“name”: “dev”,
-		“image”: “starknetfoundation/starknet-dev:latest”,
-   "customizations":  {
-        "vscode":  {
-            "extensions":  [
-                "StarkWare.cairo1",
-                "tamasfe.even-better-toml" ] }}
-}
-then once .devcontainer.json is populated, click save, then enter ctrl/shift/P, and select “Dev Containers: Rebuild and Reopen in Container” 
+1. Open VSC
+2. Connect to WSL 24.04, open a new terminal
+3. then mkdir xxxxx
+4. then cd xxxxx
+5. then code .  which opens a new terminal you’ll use henceforth
+6. then New File from the Explorer and create a “.devcontainer.json” file
+7. then once created, populate it with: 
+
+	 { 
+	“name”: “dev”,
+			“image”: “starknetfoundation/starknet-dev:latest”,
+	   "customizations":  {
+	        "vscode":  {
+	            "extensions":  [
+	                "StarkWare.cairo1",
+	                "tamasfe.even-better-toml" ] 
+			}
+	  }
+	}
+
+8. then once .devcontainer.json is populated, click save, then enter ctrl/shift/P, and select “Dev Containers: Rebuild and Reopen in Container” 
 (opens the project inside the Starknet container)
-then scarb init – (select Starknet Foundry) which builds the project folders, files, dependencies
-then scarb test
-That’s it, you now have a Cairo/Starknet development setup.
+9. then scarb init – (select Starknet Foundry) which builds the project folders, files, dependencies
+10. then scarb test
+
+That’s it, you now have a Cairo/Starknet development setup ready for further Starknet-related activities.
 
