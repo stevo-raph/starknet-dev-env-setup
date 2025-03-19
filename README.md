@@ -20,7 +20,7 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 6. then ***New File*** from the Explorer and ***create*** a “**.devcontainer.json**” file
 7. then once created, ***populate*** it by **typing**: 
 
-	 { 
+	 {   
 	“name”: “dev”,  
 			“image”: “starknetfoundation/starknet-dev:latest”,  
 	   "customizations":  {  
