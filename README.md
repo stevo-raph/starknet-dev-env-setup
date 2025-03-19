@@ -1,4 +1,5 @@
-# starknet-dev-env-setup for WSL2 Ubuntu using Docker containers
+# Setting up a Starknet Development Environment on WSL2 Ubuntu with Docker
+
 The Starknet documentation is incomplete when it comes to setting up a development environment (dev env) on WSL2 Ubuntu (running on Windows 11) using a Starknet Docker image and running a container from it. I also found the same gaps in the Starknet Basecamp YouTube *Fundamentals* videos.
 
 Both guides can be confusing and frustrating because they fail to clearly mention — or even mention at all — the need to install Docker Desktop and/or the Docker image starknetfoundation-starknet-dev (Docker Hub link). As a result, they leave out the specific commands needed to set up a functional Starknet dev env on WSL2 Ubuntu.
