@@ -18,19 +18,19 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 4. then ***cd*** xxxxx
 5. then ***code .***  which opens a new terminal you’ll use henceforth
 6. then ***New File*** from the Explorer and ***create*** a “**.devcontainer.json**” file
-7. then once created, ***populate*** it by **typing**: 
+7. then once created, ***populate*** it by **typing** the following (but keep in mind that VSC will auto populate the double quotes and brackets): 
 
-	 {   
-		     “name”: “dev”,  
-				     “image”: “starknetfoundation/starknet-dev:latest”,  
-	   		     "customizations":  {  
-	        			 "vscode":  {  
-	            				 "extensions":  [  
-	                					 "StarkWare.cairo1",  
-	                					 "tamasfe.even-better-toml" ]   
-				 }  
-	  	 }  
-	}
+{ 
+    "name": "dev",
+    "image": "starknetfoundation/starknet-dev:latest",
+    "customizations": { 
+        "vscode": { 
+            "extensions": [ 
+                "StarkWare.cairo1", 
+                "tamasfe.even-better-toml"] 
+                } 
+            } 
+}
 
 8. then once **.devcontainer.json** is populated, click ***save***, then ***enter*** ctrl/shift/P, and ***select*** “Dev Containers: Rebuild and Reopen in Container” 
 (opens the project inside the Starknet container)
