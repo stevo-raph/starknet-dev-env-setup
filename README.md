@@ -21,15 +21,15 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 7. then once created, ***populate*** it by **typing**: 
 
 	 {   
-	“name”: “dev”,  
-			“image”: “starknetfoundation/starknet-dev:latest”,  
-	   "customizations":  {  
-	        "vscode":  {  
-	            "extensions":  [  
-	                "StarkWare.cairo1",  
-	                "tamasfe.even-better-toml" ]   
-			}  
-	  }  
+		“name”: “dev”,  
+				“image”: “starknetfoundation/starknet-dev:latest”,  
+	   		"customizations":  {  
+	        			"vscode":  {  
+	            				"extensions":  [  
+	                					"StarkWare.cairo1",  
+	                					"tamasfe.even-better-toml" ]   
+				}  
+	  	}  
 	}
 
 8. then once **.devcontainer.json** is populated, click ***save***, then ***enter*** ctrl/shift/P, and ***select*** “Dev Containers: Rebuild and Reopen in Container” 
