@@ -20,7 +20,7 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 6. then ***New File*** from the Explorer and ***create*** a “**.devcontainer.json**” file
 7. then once created, ***populate*** it by **typing** the following:
        
-{   
+    {   
     "name": "dev",  
     "image": "starknetfoundation/starknet-dev:latest",  
     "customizations": {   
@@ -31,11 +31,11 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
                 }     }     } 
 
 
-So that it appears like this:
+   So that it appears like this:
 
-![Starknet devcontainer code](https://github.com/user-attachments/assets/02321a27-0c8b-4417-a6e0-900ec08070e9)
+   ![Starknet devcontainer code](https://github.com/user-attachments/assets/02321a27-0c8b-4417-a6e0-900ec08070e9)
 
-8. then once **.devcontainer.json** is populated, click ***save***, then ***press*** ctrl/shift/P, and ***select*** “Dev Containers: Rebuild and Reopen in Container” 
+8. then once **.devcontainer.json** is populated, click ***save***, then ***press*** Ctrl/shift/P, and ***select*** “Dev Containers: Rebuild and Reopen in Container” 
 (opens the project inside the Starknet container)
 9. then ***scarb init*** – (select Starknet Foundry) which builds the project folders, files, dependencies
 10. then ***scarb test***
