@@ -28,9 +28,10 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
             "extensions": [   
                 "StarkWare.cairo1",   
                 "tamasfe.even-better-toml"]   
-                }   
-            }   
-}
+                }     }     }
+
+
+So that it appears like this:
 
 ![Starknet devcontainer code](https://github.com/user-attachments/assets/02321a27-0c8b-4417-a6e0-900ec08070e9)
 
