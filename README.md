@@ -18,18 +18,17 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 4. then ***cd*** xxxxx
 5. then ***code .***  which opens a new terminal you’ll use henceforth
 6. then ***New File*** from the Explorer and ***create*** a “**.devcontainer.json**” file
-7. then once created, ***populate*** it by **typing** the following (but keep in mind that VSC will auto populate the double quotes and brackets): 
-
+7. then once created, ***populate*** it by **typing** the following:
 { 
-    "name": "dev",
-    "image": "starknetfoundation/starknet-dev:latest",
-    "customizations": { 
-        "vscode": { 
-            "extensions": [ 
-                "StarkWare.cairo1", 
-                "tamasfe.even-better-toml"] 
-                } 
-            } 
+    "name": "dev",  
+    "image": "starknetfoundation/starknet-dev:latest",  
+    "customizations": {   
+        "vscode": {   
+            "extensions": [   
+                "StarkWare.cairo1",   
+                "tamasfe.even-better-toml"]   
+                }   
+            }   
 }
 
 ![Starknet devcontainer code](https://github.com/user-attachments/assets/02321a27-0c8b-4417-a6e0-900ec08070e9)
