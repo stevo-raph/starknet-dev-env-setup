@@ -31,6 +31,7 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
                 } 
             } 
 }
+![Starknet devcontainer code](https://github.com/user-attachments/assets/02321a27-0c8b-4417-a6e0-900ec08070e9)
 
 8. then once **.devcontainer.json** is populated, click ***save***, then ***enter*** ctrl/shift/P, and ***select*** “Dev Containers: Rebuild and Reopen in Container” 
 (opens the project inside the Starknet container)
