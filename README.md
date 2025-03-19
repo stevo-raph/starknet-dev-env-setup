@@ -12,13 +12,13 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 	2.	You’ve installed the Dev Containers extension in VSC.
 	3.	You’ve installed the Cairo 1.0 extension in VSC.**
 
-1. Open VSC
-2. Connect to WSL 24.04, open a new terminal
-3. then mkdir xxxxx
-4. then cd xxxxx
-5. then code .  which opens a new terminal you’ll use henceforth
-6. then New File from the Explorer and create a “.devcontainer.json” file
-7. then once created, populate it with: 
+1. ***Open*** VSC
+2. ***Connect*** to WSL 24.04, ***open*** a new terminal
+3. then ***mkdir*** xxxxx
+4. then ***cd*** xxxxx
+5. then ***code .***  which opens a new terminal you’ll use henceforth
+6. then ***New File*** from the Explorer and ***create*** a “.devcontainer.json” file
+7. then once created, ***populate*** it with: 
 
 	 { 
 	“name”: “dev”,
@@ -32,10 +32,10 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 	  }
 	}
 
-8. then once .devcontainer.json is populated, click save, then enter ctrl/shift/P, and select “Dev Containers: Rebuild and Reopen in Container” 
+8. then once .devcontainer.json is populated, click ***save***, then ***enter*** ctrl/shift/P, and ***select*** “Dev Containers: Rebuild and Reopen in Container” 
 (opens the project inside the Starknet container)
-9. then scarb init – (select Starknet Foundry) which builds the project folders, files, dependencies
-10. then scarb test
+9. then ***scarb init*** – (select Starknet Foundry) which builds the project folders, files, dependencies
+10. then ***scarb test***
 
 That’s it, you now have a Cairo/Starknet development setup ready for further Starknet-related activities.
 
