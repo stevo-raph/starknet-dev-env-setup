@@ -19,7 +19,8 @@ This ***Step-by-Step Guide*** aims to fill those gaps, reduce confusion, and hel
 5. then ***code .***  which opens a new terminal you’ll use henceforth
 6. then ***New File*** from the Explorer and ***create*** a “**.devcontainer.json**” file
 7. then once created, ***populate*** it by **typing** the following:
-{ 
+
+{   
     "name": "dev",  
     "image": "starknetfoundation/starknet-dev:latest",  
     "customizations": {   
